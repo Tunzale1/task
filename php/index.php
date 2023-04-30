@@ -75,7 +75,7 @@
 
         
         $passed = $sec % $cycle;
-        if ($passed >= 0 && $passed < 2 * 60) {
+        if ($passed >= 0 && $passed < 7 * 60) {
             $color = 'red';
         } 
         else if ($passed >= 2 * 60 && $passed < 3 * 60) {
